@@ -1,0 +1,47 @@
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 100px;
+    .main-nav{
+        max-width: 860px;
+        text-align: start;
+        h3{
+            opacity: 0.8;
+            font-size: 22px;
+            font-weight: 400;
+        }
+    }
+    .box{
+        max-width: 860px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .box-img{
+        max-width: 250px;
+        height: 180px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .box-desc{
+        max-width: 550px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .year{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        img{
+            width: 50px;
+            height: 25px;
+        }
+    }
+}
